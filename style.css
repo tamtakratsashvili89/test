@@ -29,8 +29,9 @@ margin: 30px;
 
 .display{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .left{
     display: flex;
@@ -44,6 +45,7 @@ margin: 30px;
     margin: 20px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .menu{
     margin: 50px;
@@ -65,12 +67,14 @@ margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     left: 35%;    
     
   }
 
   .collection{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-size: 30px;
     color: white;
